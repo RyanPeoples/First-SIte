@@ -1,0 +1,110 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+End
+Reset
+*/
+body{
+    background-color: #ffcdb2;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid #b5838d;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+}
+.header1 h1{
+    margin: 5%;
+    font-size: xx-large;
+    font-weight: bold;
+    border-bottom: 5px solid #b5838d;
+}
+.bodyText div{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+.bodyText div h2{
+    margin-bottom: 5px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+}
+footer{
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	width: 100%;
+	align-items: center;
+	background-color: #6d6875;
+	position: relative;
+	bottom: 0%;
+}
+footer div{
+	margin: 5px;
+}
+footer a{
+	text-decoration: none;
+	color: black;
+	border-right: 1px solid black;
+	padding-left: 2px;
+}
+footer a:last-of-type{
+	border: none;
+}
